@@ -1,0 +1,45 @@
+body{
+    background-color:rgba(255,170,166,0.4);    
+}
+.navbar{
+    display: flex;
+    padding: 0px 10px;
+}
+a:hover{
+    background-color: pink;
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+    padding: 0px 10px;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+.photo img{
+    height: 500px;
+    width: 500px;
+    
+}
+/* .seperate{
+    font-size: 10px;
+    display: flex;
+} */
+
+/* .first,.second{
+    width: 50vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: Quicksand;
+    font-size: 10px;
+} */
+.first,.second,.third{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    font-family: Quicksand;
+}
+.text{
+    flex-grow: 1;
+    text-align: center;
+}
